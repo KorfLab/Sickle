@@ -25,8 +25,16 @@
 		EE2C1F1C16D6B9E600692D6C /* Sickle */ = {
 			isa = PBXGroup;
 			children = (
+				EE2C1F2816D6BC7200692D6C /* src */,
 			);
 			path = Sickle;
+			sourceTree = "<group>";
+		};
+		EE2C1F2816D6BC7200692D6C /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
