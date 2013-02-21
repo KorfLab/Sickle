@@ -6,11 +6,172 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EE2C1F3816D6BF8400692D6C /* Sickle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE2C1F3616D6BF8400692D6C /* Sickle.cpp */; };
+		EE2C1F3D16D6BFD200692D6C /* libeasel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3916D6BFD200692D6C /* libeasel.a */; };
+		EE2C1F3E16D6BFD200692D6C /* libhmmer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3A16D6BFD200692D6C /* libhmmer.a */; };
+		EE2C1F3F16D6BFD200692D6C /* libhmmerimpl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3B16D6BFD200692D6C /* libhmmerimpl.a */; };
+		EE2C1F4016D6BFD200692D6C /* libStochHMM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3C16D6BFD200692D6C /* libStochHMM.a */; };
+		EE2C1FB516D6CD8500692D6C /* Nail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE2C1FA516D6C61C00692D6C /* Nail.cpp */; };
+		EE2C1FB616D6CDA200692D6C /* libeasel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3916D6BFD200692D6C /* libeasel.a */; };
+		EE2C1FB716D6CDA200692D6C /* libhmmer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3A16D6BFD200692D6C /* libhmmer.a */; };
+		EE2C1FB816D6CDA200692D6C /* libhmmerimpl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3B16D6BFD200692D6C /* libhmmerimpl.a */; };
+		EE2C1FB916D6CDA200692D6C /* libStochHMM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3C16D6BFD200692D6C /* libStochHMM.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE2C1F2B16D6BF6E00692D6C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EE2C1FAA16D6CD6C00692D6C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE2C1F2D16D6BF6E00692D6C /* Sickle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sickle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2C1F3616D6BF8400692D6C /* Sickle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sickle.cpp; path = ../src/Sickle.cpp; sourceTree = SOURCE_ROOT; };
+		EE2C1F3716D6BF8400692D6C /* Sickle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sickle.h; path = ../src/Sickle.h; sourceTree = SOURCE_ROOT; };
+		EE2C1F3916D6BFD200692D6C /* libeasel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libeasel.a; path = ../Libraries/libeasel.a; sourceTree = "<group>"; };
+		EE2C1F3A16D6BFD200692D6C /* libhmmer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhmmer.a; path = ../Libraries/libhmmer.a; sourceTree = "<group>"; };
+		EE2C1F3B16D6BFD200692D6C /* libhmmerimpl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhmmerimpl.a; path = ../Libraries/libhmmerimpl.a; sourceTree = "<group>"; };
+		EE2C1F3C16D6BFD200692D6C /* libStochHMM.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStochHMM.a; path = ../Libraries/libStochHMM.a; sourceTree = "<group>"; };
+		EE2C1F4516D6C03F00692D6C /* easel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = easel.h; path = "../Libraries/includes/hmmer-3.0/easel/easel.h"; sourceTree = "<group>"; };
+		EE2C1F4616D6C03F00692D6C /* esl_alphabet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_alphabet.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_alphabet.h"; sourceTree = "<group>"; };
+		EE2C1F4716D6C03F00692D6C /* esl_cluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_cluster.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_cluster.h"; sourceTree = "<group>"; };
+		EE2C1F4816D6C03F00692D6C /* esl_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_config.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_config.h"; sourceTree = "<group>"; };
+		EE2C1F4916D6C03F00692D6C /* esl_dirichlet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_dirichlet.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_dirichlet.h"; sourceTree = "<group>"; };
+		EE2C1F4A16D6C03F00692D6C /* esl_distance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_distance.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_distance.h"; sourceTree = "<group>"; };
+		EE2C1F4B16D6C03F00692D6C /* esl_dmatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_dmatrix.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_dmatrix.h"; sourceTree = "<group>"; };
+		EE2C1F4C16D6C03F00692D6C /* esl_exponential.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_exponential.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_exponential.h"; sourceTree = "<group>"; };
+		EE2C1F4D16D6C03F00692D6C /* esl_fileparser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_fileparser.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_fileparser.h"; sourceTree = "<group>"; };
+		EE2C1F4E16D6C03F00692D6C /* esl_gamma.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_gamma.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_gamma.h"; sourceTree = "<group>"; };
+		EE2C1F4F16D6C03F00692D6C /* esl_getopts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_getopts.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_getopts.h"; sourceTree = "<group>"; };
+		EE2C1F5016D6C03F00692D6C /* esl_gev.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_gev.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_gev.h"; sourceTree = "<group>"; };
+		EE2C1F5116D6C03F00692D6C /* esl_gumbel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_gumbel.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_gumbel.h"; sourceTree = "<group>"; };
+		EE2C1F5216D6C03F00692D6C /* esl_histogram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_histogram.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_histogram.h"; sourceTree = "<group>"; };
+		EE2C1F5316D6C03F00692D6C /* esl_hmm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_hmm.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_hmm.h"; sourceTree = "<group>"; };
+		EE2C1F5416D6C03F00692D6C /* esl_hyperexp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_hyperexp.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_hyperexp.h"; sourceTree = "<group>"; };
+		EE2C1F5516D6C03F00692D6C /* esl_keyhash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_keyhash.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_keyhash.h"; sourceTree = "<group>"; };
+		EE2C1F5616D6C03F00692D6C /* esl_minimizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_minimizer.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_minimizer.h"; sourceTree = "<group>"; };
+		EE2C1F5716D6C03F00692D6C /* esl_mixgev.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_mixgev.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_mixgev.h"; sourceTree = "<group>"; };
+		EE2C1F5816D6C03F00692D6C /* esl_mpi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_mpi.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_mpi.h"; sourceTree = "<group>"; };
+		EE2C1F5916D6C03F00692D6C /* esl_msa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_msa.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_msa.h"; sourceTree = "<group>"; };
+		EE2C1F5A16D6C03F00692D6C /* esl_msacluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_msacluster.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_msacluster.h"; sourceTree = "<group>"; };
+		EE2C1F5B16D6C03F00692D6C /* esl_msashuffle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_msashuffle.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_msashuffle.h"; sourceTree = "<group>"; };
+		EE2C1F5C16D6C03F00692D6C /* esl_msaweight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_msaweight.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_msaweight.h"; sourceTree = "<group>"; };
+		EE2C1F5D16D6C03F00692D6C /* esl_normal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_normal.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_normal.h"; sourceTree = "<group>"; };
+		EE2C1F5E16D6C03F00692D6C /* esl_paml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_paml.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_paml.h"; sourceTree = "<group>"; };
+		EE2C1F5F16D6C03F00692D6C /* esl_random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_random.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_random.h"; sourceTree = "<group>"; };
+		EE2C1F6016D6C03F00692D6C /* esl_randomseq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_randomseq.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_randomseq.h"; sourceTree = "<group>"; };
+		EE2C1F6116D6C03F00692D6C /* esl_ratematrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_ratematrix.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_ratematrix.h"; sourceTree = "<group>"; };
+		EE2C1F6216D6C03F00692D6C /* esl_regexp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_regexp.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_regexp.h"; sourceTree = "<group>"; };
+		EE2C1F6316D6C03F00692D6C /* esl_rootfinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_rootfinder.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_rootfinder.h"; sourceTree = "<group>"; };
+		EE2C1F6416D6C03F00692D6C /* esl_scorematrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_scorematrix.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_scorematrix.h"; sourceTree = "<group>"; };
+		EE2C1F6516D6C03F00692D6C /* esl_sq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_sq.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_sq.h"; sourceTree = "<group>"; };
+		EE2C1F6616D6C03F00692D6C /* esl_sqio_ascii.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_sqio_ascii.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_sqio_ascii.h"; sourceTree = "<group>"; };
+		EE2C1F6716D6C03F00692D6C /* esl_sqio_ncbi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_sqio_ncbi.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_sqio_ncbi.h"; sourceTree = "<group>"; };
+		EE2C1F6816D6C03F00692D6C /* esl_sqio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_sqio.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_sqio.h"; sourceTree = "<group>"; };
+		EE2C1F6916D6C03F00692D6C /* esl_sse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_sse.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_sse.h"; sourceTree = "<group>"; };
+		EE2C1F6A16D6C03F00692D6C /* esl_ssi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_ssi.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_ssi.h"; sourceTree = "<group>"; };
+		EE2C1F6B16D6C03F00692D6C /* esl_stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_stack.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_stack.h"; sourceTree = "<group>"; };
+		EE2C1F6C16D6C03F00692D6C /* esl_stats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_stats.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_stats.h"; sourceTree = "<group>"; };
+		EE2C1F6D16D6C03F00692D6C /* esl_stopwatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_stopwatch.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_stopwatch.h"; sourceTree = "<group>"; };
+		EE2C1F6E16D6C03F00692D6C /* esl_stretchexp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_stretchexp.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_stretchexp.h"; sourceTree = "<group>"; };
+		EE2C1F6F16D6C03F00692D6C /* esl_threads.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_threads.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_threads.h"; sourceTree = "<group>"; };
+		EE2C1F7016D6C03F00692D6C /* esl_tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_tree.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_tree.h"; sourceTree = "<group>"; };
+		EE2C1F7116D6C03F00692D6C /* esl_vectorops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_vectorops.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_vectorops.h"; sourceTree = "<group>"; };
+		EE2C1F7216D6C03F00692D6C /* esl_vmx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_vmx.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_vmx.h"; sourceTree = "<group>"; };
+		EE2C1F7316D6C03F00692D6C /* esl_weibull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_weibull.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_weibull.h"; sourceTree = "<group>"; };
+		EE2C1F7416D6C03F00692D6C /* esl_workqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_workqueue.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_workqueue.h"; sourceTree = "<group>"; };
+		EE2C1F7516D6C03F00692D6C /* esl_wuss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_wuss.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_wuss.h"; sourceTree = "<group>"; };
+		EE2C1F7616D6C04C00692D6C /* hmmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hmmer.h; path = "../Libraries/includes/hmmer-3.0/hmmer.h"; sourceTree = "<group>"; };
+		EE2C1F7816D6C04C00692D6C /* impl_sse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = impl_sse.h; sourceTree = "<group>"; };
+		EE2C1F7916D6C04C00692D6C /* interface_gsl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = interface_gsl.h; path = "../Libraries/includes/hmmer-3.0/interface_gsl.h"; sourceTree = "<group>"; };
+		EE2C1F7A16D6C04C00692D6C /* interface_lapack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = interface_lapack.h; path = "../Libraries/includes/hmmer-3.0/interface_lapack.h"; sourceTree = "<group>"; };
+		EE2C1F7B16D6C04C00692D6C /* p7_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = p7_config.h; path = "../Libraries/includes/hmmer-3.0/p7_config.h"; sourceTree = "<group>"; };
+		EE2C1F8016D6C07600692D6C /* emm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = emm.h; path = ../Libraries/includes/StochHMM/emm.h; sourceTree = "<group>"; };
+		EE2C1F8116D6C07600692D6C /* externalFuncs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = externalFuncs.h; path = ../Libraries/includes/StochHMM/externalFuncs.h; sourceTree = "<group>"; };
+		EE2C1F8216D6C07600692D6C /* externDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = externDefinitions.h; path = ../Libraries/includes/StochHMM/externDefinitions.h; sourceTree = "<group>"; };
+		EE2C1F8316D6C07600692D6C /* hmm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hmm.h; path = ../Libraries/includes/StochHMM/hmm.h; sourceTree = "<group>"; };
+		EE2C1F8416D6C07600692D6C /* index.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = index.h; path = ../Libraries/includes/StochHMM/index.h; sourceTree = "<group>"; };
+		EE2C1F8516D6C07600692D6C /* lexicalTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lexicalTable.h; path = ../Libraries/includes/StochHMM/lexicalTable.h; sourceTree = "<group>"; };
+		EE2C1F8616D6C07600692D6C /* modelTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = modelTemplate.h; path = ../Libraries/includes/StochHMM/modelTemplate.h; sourceTree = "<group>"; };
+		EE2C1F8716D6C07600692D6C /* MotifScorer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MotifScorer.h; path = ../Libraries/includes/StochHMM/MotifScorer.h; sourceTree = "<group>"; };
+		EE2C1F8816D6C07600692D6C /* options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = options.h; path = ../Libraries/includes/StochHMM/options.h; sourceTree = "<group>"; };
+		EE2C1F8916D6C07600692D6C /* output.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = output.h; path = ../Libraries/includes/StochHMM/output.h; sourceTree = "<group>"; };
+		EE2C1F8A16D6C07600692D6C /* PDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PDF.h; path = ../Libraries/includes/StochHMM/PDF.h; sourceTree = "<group>"; };
+		EE2C1F8B16D6C07600692D6C /* pwm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pwm.h; path = ../Libraries/includes/StochHMM/pwm.h; sourceTree = "<group>"; };
+		EE2C1F8C16D6C07600692D6C /* seqTracks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = seqTracks.h; path = ../Libraries/includes/StochHMM/seqTracks.h; sourceTree = "<group>"; };
+		EE2C1F8D16D6C07600692D6C /* sequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sequence.h; path = ../Libraries/includes/StochHMM/sequence.h; sourceTree = "<group>"; };
+		EE2C1F8E16D6C07600692D6C /* sequences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sequences.h; path = ../Libraries/includes/StochHMM/sequences.h; sourceTree = "<group>"; };
+		EE2C1F8F16D6C07600692D6C /* sequenceStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sequenceStream.h; path = ../Libraries/includes/StochHMM/sequenceStream.h; sourceTree = "<group>"; };
+		EE2C1F9016D6C07600692D6C /* simpleTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = simpleTable.h; path = ../Libraries/includes/StochHMM/simpleTable.h; sourceTree = "<group>"; };
+		EE2C1F9116D6C07600692D6C /* state.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = state.h; path = ../Libraries/includes/StochHMM/state.h; sourceTree = "<group>"; };
+		EE2C1F9216D6C07600692D6C /* statistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = statistics.h; path = ../Libraries/includes/StochHMM/statistics.h; sourceTree = "<group>"; };
+		EE2C1F9316D6C07600692D6C /* stochErr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stochErr.h; path = ../Libraries/includes/StochHMM/stochErr.h; sourceTree = "<group>"; };
+		EE2C1F9416D6C07600692D6C /* StochHMM_usage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StochHMM_usage.h; path = ../Libraries/includes/StochHMM/StochHMM_usage.h; sourceTree = "<group>"; };
+		EE2C1F9516D6C07600692D6C /* StochHMMlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StochHMMlib.h; path = ../Libraries/includes/StochHMM/StochHMMlib.h; sourceTree = "<group>"; };
+		EE2C1F9616D6C07600692D6C /* stochMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stochMath.h; path = ../Libraries/includes/StochHMM/stochMath.h; sourceTree = "<group>"; };
+		EE2C1F9716D6C07600692D6C /* stochTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stochTable.h; path = ../Libraries/includes/StochHMM/stochTable.h; sourceTree = "<group>"; };
+		EE2C1F9816D6C07600692D6C /* stochTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stochTypes.h; path = ../Libraries/includes/StochHMM/stochTypes.h; sourceTree = "<group>"; };
+		EE2C1F9916D6C07600692D6C /* table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = table.h; path = ../Libraries/includes/StochHMM/table.h; sourceTree = "<group>"; };
+		EE2C1F9A16D6C07600692D6C /* text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = text.h; path = ../Libraries/includes/StochHMM/text.h; sourceTree = "<group>"; };
+		EE2C1F9B16D6C07600692D6C /* traceback_path.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = traceback_path.h; path = ../Libraries/includes/StochHMM/traceback_path.h; sourceTree = "<group>"; };
+		EE2C1F9C16D6C07600692D6C /* track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = track.h; path = ../Libraries/includes/StochHMM/track.h; sourceTree = "<group>"; };
+		EE2C1F9E16D6C07600692D6C /* transitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = transitions.h; path = ../Libraries/includes/StochHMM/transitions.h; sourceTree = "<group>"; };
+		EE2C1F9F16D6C07600692D6C /* trellis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = trellis.h; path = ../Libraries/includes/StochHMM/trellis.h; sourceTree = "<group>"; };
+		EE2C1FA016D6C07600692D6C /* userFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = userFunctions.h; path = ../Libraries/includes/StochHMM/userFunctions.h; sourceTree = "<group>"; };
+		EE2C1FA116D6C07600692D6C /* weight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = weight.h; path = ../Libraries/includes/StochHMM/weight.h; sourceTree = "<group>"; };
+		EE2C1FA516D6C61C00692D6C /* Nail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nail.cpp; sourceTree = SOURCE_ROOT; };
+		EE2C1FA616D6C61C00692D6C /* Nail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nail.h; sourceTree = SOURCE_ROOT; };
+		EE2C1FAC16D6CD6C00692D6C /* Nail */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Nail; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE2C1F2A16D6BF6E00692D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2C1F3D16D6BFD200692D6C /* libeasel.a in Frameworks */,
+				EE2C1F3E16D6BFD200692D6C /* libhmmer.a in Frameworks */,
+				EE2C1F3F16D6BFD200692D6C /* libhmmerimpl.a in Frameworks */,
+				EE2C1F4016D6BFD200692D6C /* libStochHMM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2C1FA916D6CD6C00692D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2C1FB616D6CDA200692D6C /* libeasel.a in Frameworks */,
+				EE2C1FB716D6CDA200692D6C /* libhmmer.a in Frameworks */,
+				EE2C1FB816D6CDA200692D6C /* libhmmerimpl.a in Frameworks */,
+				EE2C1FB916D6CDA200692D6C /* libStochHMM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		EE2C1F1116D6B9E600692D6C = {
 			isa = PBXGroup;
 			children = (
+				EE2C1F4116D6BFE700692D6C /* Static Libraries */,
 				EE2C1F1C16D6B9E600692D6C /* Sickle */,
+				EE2C1F2E16D6BF6E00692D6C /* Sickle */,
 				EE2C1F1B16D6B9E600692D6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -18,6 +179,8 @@
 		EE2C1F1B16D6B9E600692D6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				EE2C1F2D16D6BF6E00692D6C /* Sickle */,
+				EE2C1FAC16D6CD6C00692D6C /* Nail */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -33,11 +196,190 @@
 		EE2C1F2816D6BC7200692D6C /* src */ = {
 			isa = PBXGroup;
 			children = (
+				EE2C1F3716D6BF8400692D6C /* Sickle.h */,
+				EE2C1F3616D6BF8400692D6C /* Sickle.cpp */,
+				EE2C1FA516D6C61C00692D6C /* Nail.cpp */,
+				EE2C1FA616D6C61C00692D6C /* Nail.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
 		};
+		EE2C1F2E16D6BF6E00692D6C /* Sickle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sickle;
+			sourceTree = "<group>";
+		};
+		EE2C1F4116D6BFE700692D6C /* Static Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C1F4216D6BFF300692D6C /* Headers */,
+				EE2C1F3916D6BFD200692D6C /* libeasel.a */,
+				EE2C1F3A16D6BFD200692D6C /* libhmmer.a */,
+				EE2C1F3B16D6BFD200692D6C /* libhmmerimpl.a */,
+				EE2C1F3C16D6BFD200692D6C /* libStochHMM.a */,
+			);
+			name = "Static Libraries";
+			sourceTree = "<group>";
+		};
+		EE2C1F4216D6BFF300692D6C /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C1F4316D6C00C00692D6C /* hmmer */,
+				EE2C1F4416D6C01800692D6C /* StochHMM */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		EE2C1F4316D6C00C00692D6C /* hmmer */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C1F7616D6C04C00692D6C /* hmmer.h */,
+				EE2C1F7716D6C04C00692D6C /* impl */,
+				EE2C1F7916D6C04C00692D6C /* interface_gsl.h */,
+				EE2C1F7A16D6C04C00692D6C /* interface_lapack.h */,
+				EE2C1F7B16D6C04C00692D6C /* p7_config.h */,
+				EE2C1F4516D6C03F00692D6C /* easel.h */,
+				EE2C1F4616D6C03F00692D6C /* esl_alphabet.h */,
+				EE2C1F4716D6C03F00692D6C /* esl_cluster.h */,
+				EE2C1F4816D6C03F00692D6C /* esl_config.h */,
+				EE2C1F4916D6C03F00692D6C /* esl_dirichlet.h */,
+				EE2C1F4A16D6C03F00692D6C /* esl_distance.h */,
+				EE2C1F4B16D6C03F00692D6C /* esl_dmatrix.h */,
+				EE2C1F4C16D6C03F00692D6C /* esl_exponential.h */,
+				EE2C1F4D16D6C03F00692D6C /* esl_fileparser.h */,
+				EE2C1F4E16D6C03F00692D6C /* esl_gamma.h */,
+				EE2C1F4F16D6C03F00692D6C /* esl_getopts.h */,
+				EE2C1F5016D6C03F00692D6C /* esl_gev.h */,
+				EE2C1F5116D6C03F00692D6C /* esl_gumbel.h */,
+				EE2C1F5216D6C03F00692D6C /* esl_histogram.h */,
+				EE2C1F5316D6C03F00692D6C /* esl_hmm.h */,
+				EE2C1F5416D6C03F00692D6C /* esl_hyperexp.h */,
+				EE2C1F5516D6C03F00692D6C /* esl_keyhash.h */,
+				EE2C1F5616D6C03F00692D6C /* esl_minimizer.h */,
+				EE2C1F5716D6C03F00692D6C /* esl_mixgev.h */,
+				EE2C1F5816D6C03F00692D6C /* esl_mpi.h */,
+				EE2C1F5916D6C03F00692D6C /* esl_msa.h */,
+				EE2C1F5A16D6C03F00692D6C /* esl_msacluster.h */,
+				EE2C1F5B16D6C03F00692D6C /* esl_msashuffle.h */,
+				EE2C1F5C16D6C03F00692D6C /* esl_msaweight.h */,
+				EE2C1F5D16D6C03F00692D6C /* esl_normal.h */,
+				EE2C1F5E16D6C03F00692D6C /* esl_paml.h */,
+				EE2C1F5F16D6C03F00692D6C /* esl_random.h */,
+				EE2C1F6016D6C03F00692D6C /* esl_randomseq.h */,
+				EE2C1F6116D6C03F00692D6C /* esl_ratematrix.h */,
+				EE2C1F6216D6C03F00692D6C /* esl_regexp.h */,
+				EE2C1F6316D6C03F00692D6C /* esl_rootfinder.h */,
+				EE2C1F6416D6C03F00692D6C /* esl_scorematrix.h */,
+				EE2C1F6516D6C03F00692D6C /* esl_sq.h */,
+				EE2C1F6616D6C03F00692D6C /* esl_sqio_ascii.h */,
+				EE2C1F6716D6C03F00692D6C /* esl_sqio_ncbi.h */,
+				EE2C1F6816D6C03F00692D6C /* esl_sqio.h */,
+				EE2C1F6916D6C03F00692D6C /* esl_sse.h */,
+				EE2C1F6A16D6C03F00692D6C /* esl_ssi.h */,
+				EE2C1F6B16D6C03F00692D6C /* esl_stack.h */,
+				EE2C1F6C16D6C03F00692D6C /* esl_stats.h */,
+				EE2C1F6D16D6C03F00692D6C /* esl_stopwatch.h */,
+				EE2C1F6E16D6C03F00692D6C /* esl_stretchexp.h */,
+				EE2C1F6F16D6C03F00692D6C /* esl_threads.h */,
+				EE2C1F7016D6C03F00692D6C /* esl_tree.h */,
+				EE2C1F7116D6C03F00692D6C /* esl_vectorops.h */,
+				EE2C1F7216D6C03F00692D6C /* esl_vmx.h */,
+				EE2C1F7316D6C03F00692D6C /* esl_weibull.h */,
+				EE2C1F7416D6C03F00692D6C /* esl_workqueue.h */,
+				EE2C1F7516D6C03F00692D6C /* esl_wuss.h */,
+			);
+			name = hmmer;
+			sourceTree = "<group>";
+		};
+		EE2C1F4416D6C01800692D6C /* StochHMM */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C1F8016D6C07600692D6C /* emm.h */,
+				EE2C1F8116D6C07600692D6C /* externalFuncs.h */,
+				EE2C1F8216D6C07600692D6C /* externDefinitions.h */,
+				EE2C1F8316D6C07600692D6C /* hmm.h */,
+				EE2C1F8416D6C07600692D6C /* index.h */,
+				EE2C1F8516D6C07600692D6C /* lexicalTable.h */,
+				EE2C1F8616D6C07600692D6C /* modelTemplate.h */,
+				EE2C1F8716D6C07600692D6C /* MotifScorer.h */,
+				EE2C1F8816D6C07600692D6C /* options.h */,
+				EE2C1F8916D6C07600692D6C /* output.h */,
+				EE2C1F8A16D6C07600692D6C /* PDF.h */,
+				EE2C1F8B16D6C07600692D6C /* pwm.h */,
+				EE2C1F8C16D6C07600692D6C /* seqTracks.h */,
+				EE2C1F8D16D6C07600692D6C /* sequence.h */,
+				EE2C1F8E16D6C07600692D6C /* sequences.h */,
+				EE2C1F8F16D6C07600692D6C /* sequenceStream.h */,
+				EE2C1F9016D6C07600692D6C /* simpleTable.h */,
+				EE2C1F9116D6C07600692D6C /* state.h */,
+				EE2C1F9216D6C07600692D6C /* statistics.h */,
+				EE2C1F9316D6C07600692D6C /* stochErr.h */,
+				EE2C1F9416D6C07600692D6C /* StochHMM_usage.h */,
+				EE2C1F9516D6C07600692D6C /* StochHMMlib.h */,
+				EE2C1F9616D6C07600692D6C /* stochMath.h */,
+				EE2C1F9716D6C07600692D6C /* stochTable.h */,
+				EE2C1F9816D6C07600692D6C /* stochTypes.h */,
+				EE2C1F9916D6C07600692D6C /* table.h */,
+				EE2C1F9A16D6C07600692D6C /* text.h */,
+				EE2C1F9B16D6C07600692D6C /* traceback_path.h */,
+				EE2C1F9C16D6C07600692D6C /* track.h */,
+				EE2C1F9E16D6C07600692D6C /* transitions.h */,
+				EE2C1F9F16D6C07600692D6C /* trellis.h */,
+				EE2C1FA016D6C07600692D6C /* userFunctions.h */,
+				EE2C1FA116D6C07600692D6C /* weight.h */,
+			);
+			name = StochHMM;
+			sourceTree = "<group>";
+		};
+		EE2C1F7716D6C04C00692D6C /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C1F7816D6C04C00692D6C /* impl_sse.h */,
+			);
+			name = impl;
+			path = "../Libraries/includes/hmmer-3.0/impl";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2C1F2C16D6BF6E00692D6C /* Sickle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2C1F3316D6BF6E00692D6C /* Build configuration list for PBXNativeTarget "Sickle" */;
+			buildPhases = (
+				EE2C1F2916D6BF6E00692D6C /* Sources */,
+				EE2C1F2A16D6BF6E00692D6C /* Frameworks */,
+				EE2C1F2B16D6BF6E00692D6C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sickle;
+			productName = Sickle;
+			productReference = EE2C1F2D16D6BF6E00692D6C /* Sickle */;
+			productType = "com.apple.product-type.tool";
+		};
+		EE2C1FAB16D6CD6C00692D6C /* Nail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2C1FB216D6CD6C00692D6C /* Build configuration list for PBXNativeTarget "Nail" */;
+			buildPhases = (
+				EE2C1FA816D6CD6C00692D6C /* Sources */,
+				EE2C1FA916D6CD6C00692D6C /* Frameworks */,
+				EE2C1FAA16D6CD6C00692D6C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nail;
+			productName = Nail;
+			productReference = EE2C1FAC16D6CD6C00692D6C /* Nail */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		EE2C1F1216D6B9E600692D6C /* Project object */ = {
@@ -58,9 +400,30 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				EE2C1F2C16D6BF6E00692D6C /* Sickle */,
+				EE2C1FAB16D6CD6C00692D6C /* Nail */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE2C1F2916D6BF6E00692D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2C1F3816D6BF8400692D6C /* Sickle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2C1FA816D6CD6C00692D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2C1FB516D6CD8500692D6C /* Nail.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		EE2C1F2116D6B9E600692D6C /* Debug */ = {
@@ -120,6 +483,50 @@
 			};
 			name = Release;
 		};
+		EE2C1F3416D6BF6E00692D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Libraries\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE2C1F3516D6BF6E00692D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Libraries\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE2C1FB316D6CD6C00692D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Libraries\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE2C1FB416D6CD6C00692D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Libraries\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -131,6 +538,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		EE2C1F3316D6BF6E00692D6C /* Build configuration list for PBXNativeTarget "Sickle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2C1F3416D6BF6E00692D6C /* Debug */,
+				EE2C1F3516D6BF6E00692D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE2C1FB216D6CD6C00692D6C /* Build configuration list for PBXNativeTarget "Nail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2C1FB316D6CD6C00692D6C /* Debug */,
+				EE2C1FB416D6CD6C00692D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
