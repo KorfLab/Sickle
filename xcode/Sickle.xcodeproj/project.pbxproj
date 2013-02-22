@@ -15,7 +15,7 @@
 		EE2C1FB616D6CDA200692D6C /* libeasel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3916D6BFD200692D6C /* libeasel.a */; };
 		EE2C1FB716D6CDA200692D6C /* libhmmer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3A16D6BFD200692D6C /* libhmmer.a */; };
 		EE2C1FB816D6CDA200692D6C /* libhmmerimpl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3B16D6BFD200692D6C /* libhmmerimpl.a */; };
-		EED0B2A916D6F57C00A11324 /* libStochHMM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EED0B2A816D6F57C00A11324 /* libStochHMM.a */; };
+		EED47CAD16D712A7007AC1C9 /* libStochHMM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EED47CAC16D712A7007AC1C9 /* libStochHMM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -128,7 +128,7 @@
 		EE2C1FD816D6E4AA00692D6C /* seqTracks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = seqTracks.h; path = ../Libraries/includes/StochHMM/seqTracks.h; sourceTree = "<group>"; };
 		EE2C1FD916D6E4AA00692D6C /* sequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sequence.h; path = ../Libraries/includes/StochHMM/sequence.h; sourceTree = "<group>"; };
 		EE2C1FDA16D6E4AA00692D6C /* sequences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sequences.h; path = ../Libraries/includes/StochHMM/sequences.h; sourceTree = "<group>"; };
-		EED0B2A816D6F57C00A11324 /* libStochHMM.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStochHMM.a; path = ../Libraries/libStochHMM.a; sourceTree = "<group>"; };
+		EED47CAC16D712A7007AC1C9 /* libStochHMM.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStochHMM.a; path = ../Libraries/includes/StochHMM/libStochHMM.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +139,7 @@
 				EE2C1F3D16D6BFD200692D6C /* libeasel.a in Frameworks */,
 				EE2C1F3E16D6BFD200692D6C /* libhmmer.a in Frameworks */,
 				EE2C1F3F16D6BFD200692D6C /* libhmmerimpl.a in Frameworks */,
-				EED0B2A916D6F57C00A11324 /* libStochHMM.a in Frameworks */,
+				EED47CAD16D712A7007AC1C9 /* libStochHMM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +197,7 @@
 				EE2C1F3916D6BFD200692D6C /* libeasel.a */,
 				EE2C1F3A16D6BFD200692D6C /* libhmmer.a */,
 				EE2C1F3B16D6BFD200692D6C /* libhmmerimpl.a */,
-				EED0B2A816D6F57C00A11324 /* libStochHMM.a */,
+				EED47CAC16D712A7007AC1C9 /* libStochHMM.a */,
 			);
 			name = "Static Libraries";
 			sourceTree = "<group>";
@@ -490,6 +490,8 @@
 					"\"$(SRCROOT)/../Libraries\"",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/../../../Korf - StochHMM/StochHMM/xcode/DerivedData/StochHMM/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../../../Korf - StochHMM/StochHMM/src\"",
+					"\"$(SRCROOT)/../Libraries/includes/StochHMM\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -504,6 +506,8 @@
 					"\"$(SRCROOT)/../Libraries\"",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/../../../Korf - StochHMM/StochHMM/xcode/DerivedData/StochHMM/Build/Products/Debug\"",
+					"\"$(SRCROOT)/../../../Korf - StochHMM/StochHMM/src\"",
+					"\"$(SRCROOT)/../Libraries/includes/StochHMM\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
