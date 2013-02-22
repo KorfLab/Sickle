@@ -11,12 +11,11 @@
 		EE2C1F3D16D6BFD200692D6C /* libeasel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3916D6BFD200692D6C /* libeasel.a */; };
 		EE2C1F3E16D6BFD200692D6C /* libhmmer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3A16D6BFD200692D6C /* libhmmer.a */; };
 		EE2C1F3F16D6BFD200692D6C /* libhmmerimpl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3B16D6BFD200692D6C /* libhmmerimpl.a */; };
-		EE2C1F4016D6BFD200692D6C /* libStochHMM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3C16D6BFD200692D6C /* libStochHMM.a */; };
 		EE2C1FB516D6CD8500692D6C /* Nail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE2C1FA516D6C61C00692D6C /* Nail.cpp */; };
 		EE2C1FB616D6CDA200692D6C /* libeasel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3916D6BFD200692D6C /* libeasel.a */; };
 		EE2C1FB716D6CDA200692D6C /* libhmmer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3A16D6BFD200692D6C /* libhmmer.a */; };
 		EE2C1FB816D6CDA200692D6C /* libhmmerimpl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3B16D6BFD200692D6C /* libhmmerimpl.a */; };
-		EE2C1FB916D6CDA200692D6C /* libStochHMM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2C1F3C16D6BFD200692D6C /* libStochHMM.a */; };
+		EED0B2A916D6F57C00A11324 /* libStochHMM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EED0B2A816D6F57C00A11324 /* libStochHMM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,7 +46,6 @@
 		EE2C1F3916D6BFD200692D6C /* libeasel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libeasel.a; path = ../Libraries/libeasel.a; sourceTree = "<group>"; };
 		EE2C1F3A16D6BFD200692D6C /* libhmmer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhmmer.a; path = ../Libraries/libhmmer.a; sourceTree = "<group>"; };
 		EE2C1F3B16D6BFD200692D6C /* libhmmerimpl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhmmerimpl.a; path = ../Libraries/libhmmerimpl.a; sourceTree = "<group>"; };
-		EE2C1F3C16D6BFD200692D6C /* libStochHMM.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStochHMM.a; path = ../Libraries/libStochHMM.a; sourceTree = "<group>"; };
 		EE2C1F4516D6C03F00692D6C /* easel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = easel.h; path = "../Libraries/includes/hmmer-3.0/easel/easel.h"; sourceTree = "<group>"; };
 		EE2C1F4616D6C03F00692D6C /* esl_alphabet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_alphabet.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_alphabet.h"; sourceTree = "<group>"; };
 		EE2C1F4716D6C03F00692D6C /* esl_cluster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = esl_cluster.h; path = "../Libraries/includes/hmmer-3.0/easel/esl_cluster.h"; sourceTree = "<group>"; };
@@ -102,42 +100,35 @@
 		EE2C1F7916D6C04C00692D6C /* interface_gsl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = interface_gsl.h; path = "../Libraries/includes/hmmer-3.0/interface_gsl.h"; sourceTree = "<group>"; };
 		EE2C1F7A16D6C04C00692D6C /* interface_lapack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = interface_lapack.h; path = "../Libraries/includes/hmmer-3.0/interface_lapack.h"; sourceTree = "<group>"; };
 		EE2C1F7B16D6C04C00692D6C /* p7_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = p7_config.h; path = "../Libraries/includes/hmmer-3.0/p7_config.h"; sourceTree = "<group>"; };
-		EE2C1F8016D6C07600692D6C /* emm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = emm.h; path = ../Libraries/includes/StochHMM/emm.h; sourceTree = "<group>"; };
-		EE2C1F8116D6C07600692D6C /* externalFuncs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = externalFuncs.h; path = ../Libraries/includes/StochHMM/externalFuncs.h; sourceTree = "<group>"; };
-		EE2C1F8216D6C07600692D6C /* externDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = externDefinitions.h; path = ../Libraries/includes/StochHMM/externDefinitions.h; sourceTree = "<group>"; };
-		EE2C1F8316D6C07600692D6C /* hmm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hmm.h; path = ../Libraries/includes/StochHMM/hmm.h; sourceTree = "<group>"; };
-		EE2C1F8416D6C07600692D6C /* index.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = index.h; path = ../Libraries/includes/StochHMM/index.h; sourceTree = "<group>"; };
-		EE2C1F8516D6C07600692D6C /* lexicalTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lexicalTable.h; path = ../Libraries/includes/StochHMM/lexicalTable.h; sourceTree = "<group>"; };
-		EE2C1F8616D6C07600692D6C /* modelTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = modelTemplate.h; path = ../Libraries/includes/StochHMM/modelTemplate.h; sourceTree = "<group>"; };
-		EE2C1F8716D6C07600692D6C /* MotifScorer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MotifScorer.h; path = ../Libraries/includes/StochHMM/MotifScorer.h; sourceTree = "<group>"; };
-		EE2C1F8816D6C07600692D6C /* options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = options.h; path = ../Libraries/includes/StochHMM/options.h; sourceTree = "<group>"; };
-		EE2C1F8916D6C07600692D6C /* output.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = output.h; path = ../Libraries/includes/StochHMM/output.h; sourceTree = "<group>"; };
-		EE2C1F8A16D6C07600692D6C /* PDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PDF.h; path = ../Libraries/includes/StochHMM/PDF.h; sourceTree = "<group>"; };
-		EE2C1F8B16D6C07600692D6C /* pwm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pwm.h; path = ../Libraries/includes/StochHMM/pwm.h; sourceTree = "<group>"; };
-		EE2C1F8C16D6C07600692D6C /* seqTracks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = seqTracks.h; path = ../Libraries/includes/StochHMM/seqTracks.h; sourceTree = "<group>"; };
-		EE2C1F8D16D6C07600692D6C /* sequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sequence.h; path = ../Libraries/includes/StochHMM/sequence.h; sourceTree = "<group>"; };
-		EE2C1F8E16D6C07600692D6C /* sequences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sequences.h; path = ../Libraries/includes/StochHMM/sequences.h; sourceTree = "<group>"; };
-		EE2C1F8F16D6C07600692D6C /* sequenceStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sequenceStream.h; path = ../Libraries/includes/StochHMM/sequenceStream.h; sourceTree = "<group>"; };
-		EE2C1F9016D6C07600692D6C /* simpleTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = simpleTable.h; path = ../Libraries/includes/StochHMM/simpleTable.h; sourceTree = "<group>"; };
-		EE2C1F9116D6C07600692D6C /* state.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = state.h; path = ../Libraries/includes/StochHMM/state.h; sourceTree = "<group>"; };
-		EE2C1F9216D6C07600692D6C /* statistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = statistics.h; path = ../Libraries/includes/StochHMM/statistics.h; sourceTree = "<group>"; };
-		EE2C1F9316D6C07600692D6C /* stochErr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stochErr.h; path = ../Libraries/includes/StochHMM/stochErr.h; sourceTree = "<group>"; };
-		EE2C1F9416D6C07600692D6C /* StochHMM_usage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StochHMM_usage.h; path = ../Libraries/includes/StochHMM/StochHMM_usage.h; sourceTree = "<group>"; };
-		EE2C1F9516D6C07600692D6C /* StochHMMlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StochHMMlib.h; path = ../Libraries/includes/StochHMM/StochHMMlib.h; sourceTree = "<group>"; };
-		EE2C1F9616D6C07600692D6C /* stochMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stochMath.h; path = ../Libraries/includes/StochHMM/stochMath.h; sourceTree = "<group>"; };
-		EE2C1F9716D6C07600692D6C /* stochTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stochTable.h; path = ../Libraries/includes/StochHMM/stochTable.h; sourceTree = "<group>"; };
-		EE2C1F9816D6C07600692D6C /* stochTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stochTypes.h; path = ../Libraries/includes/StochHMM/stochTypes.h; sourceTree = "<group>"; };
-		EE2C1F9916D6C07600692D6C /* table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = table.h; path = ../Libraries/includes/StochHMM/table.h; sourceTree = "<group>"; };
-		EE2C1F9A16D6C07600692D6C /* text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = text.h; path = ../Libraries/includes/StochHMM/text.h; sourceTree = "<group>"; };
-		EE2C1F9B16D6C07600692D6C /* traceback_path.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = traceback_path.h; path = ../Libraries/includes/StochHMM/traceback_path.h; sourceTree = "<group>"; };
-		EE2C1F9C16D6C07600692D6C /* track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = track.h; path = ../Libraries/includes/StochHMM/track.h; sourceTree = "<group>"; };
-		EE2C1F9E16D6C07600692D6C /* transitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = transitions.h; path = ../Libraries/includes/StochHMM/transitions.h; sourceTree = "<group>"; };
-		EE2C1F9F16D6C07600692D6C /* trellis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = trellis.h; path = ../Libraries/includes/StochHMM/trellis.h; sourceTree = "<group>"; };
-		EE2C1FA016D6C07600692D6C /* userFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = userFunctions.h; path = ../Libraries/includes/StochHMM/userFunctions.h; sourceTree = "<group>"; };
-		EE2C1FA116D6C07600692D6C /* weight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = weight.h; path = ../Libraries/includes/StochHMM/weight.h; sourceTree = "<group>"; };
-		EE2C1FA516D6C61C00692D6C /* Nail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nail.cpp; sourceTree = SOURCE_ROOT; };
-		EE2C1FA616D6C61C00692D6C /* Nail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nail.h; sourceTree = SOURCE_ROOT; };
+		EE2C1FA516D6C61C00692D6C /* Nail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Nail.cpp; path = ../src/Nail.cpp; sourceTree = SOURCE_ROOT; };
+		EE2C1FA616D6C61C00692D6C /* Nail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Nail.h; path = ../src/Nail.h; sourceTree = SOURCE_ROOT; };
 		EE2C1FAC16D6CD6C00692D6C /* Nail */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Nail; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2C1FC216D6E4AA00692D6C /* trellis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = trellis.h; path = ../Libraries/includes/StochHMM/trellis.h; sourceTree = "<group>"; };
+		EE2C1FC316D6E4AA00692D6C /* stochTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stochTable.h; path = ../Libraries/includes/StochHMM/stochTable.h; sourceTree = "<group>"; };
+		EE2C1FC416D6E4AA00692D6C /* traceback_path.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = traceback_path.h; path = ../Libraries/includes/StochHMM/traceback_path.h; sourceTree = "<group>"; };
+		EE2C1FC516D6E4AA00692D6C /* pwm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pwm.h; path = ../Libraries/includes/StochHMM/pwm.h; sourceTree = "<group>"; };
+		EE2C1FC616D6E4AA00692D6C /* StochHMMlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StochHMMlib.h; path = ../Libraries/includes/StochHMM/StochHMMlib.h; sourceTree = "<group>"; };
+		EE2C1FC716D6E4AA00692D6C /* PDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PDF.h; path = ../Libraries/includes/StochHMM/PDF.h; sourceTree = "<group>"; };
+		EE2C1FC816D6E4AA00692D6C /* index.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = index.h; path = ../Libraries/includes/StochHMM/index.h; sourceTree = "<group>"; };
+		EE2C1FC916D6E4AA00692D6C /* stochMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stochMath.h; path = ../Libraries/includes/StochHMM/stochMath.h; sourceTree = "<group>"; };
+		EE2C1FCA16D6E4AA00692D6C /* stochTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stochTypes.h; path = ../Libraries/includes/StochHMM/stochTypes.h; sourceTree = "<group>"; };
+		EE2C1FCB16D6E4AA00692D6C /* text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = text.h; path = ../Libraries/includes/StochHMM/text.h; sourceTree = "<group>"; };
+		EE2C1FCC16D6E4AA00692D6C /* userFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = userFunctions.h; path = ../Libraries/includes/StochHMM/userFunctions.h; sourceTree = "<group>"; };
+		EE2C1FCD16D6E4AA00692D6C /* hmm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hmm.h; path = ../Libraries/includes/StochHMM/hmm.h; sourceTree = "<group>"; };
+		EE2C1FCE16D6E4AA00692D6C /* state.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = state.h; path = ../Libraries/includes/StochHMM/state.h; sourceTree = "<group>"; };
+		EE2C1FCF16D6E4AA00692D6C /* lexicalTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lexicalTable.h; path = ../Libraries/includes/StochHMM/lexicalTable.h; sourceTree = "<group>"; };
+		EE2C1FD016D6E4AA00692D6C /* track.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = track.h; path = ../Libraries/includes/StochHMM/track.h; sourceTree = "<group>"; };
+		EE2C1FD116D6E4AA00692D6C /* emm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = emm.h; path = ../Libraries/includes/StochHMM/emm.h; sourceTree = "<group>"; };
+		EE2C1FD216D6E4AA00692D6C /* externalFuncs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = externalFuncs.h; path = ../Libraries/includes/StochHMM/externalFuncs.h; sourceTree = "<group>"; };
+		EE2C1FD316D6E4AA00692D6C /* modelTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = modelTemplate.h; path = ../Libraries/includes/StochHMM/modelTemplate.h; sourceTree = "<group>"; };
+		EE2C1FD416D6E4AA00692D6C /* transitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = transitions.h; path = ../Libraries/includes/StochHMM/transitions.h; sourceTree = "<group>"; };
+		EE2C1FD516D6E4AA00692D6C /* weight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = weight.h; path = ../Libraries/includes/StochHMM/weight.h; sourceTree = "<group>"; };
+		EE2C1FD616D6E4AA00692D6C /* options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = options.h; path = ../Libraries/includes/StochHMM/options.h; sourceTree = "<group>"; };
+		EE2C1FD716D6E4AA00692D6C /* externDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = externDefinitions.h; path = ../Libraries/includes/StochHMM/externDefinitions.h; sourceTree = "<group>"; };
+		EE2C1FD816D6E4AA00692D6C /* seqTracks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = seqTracks.h; path = ../Libraries/includes/StochHMM/seqTracks.h; sourceTree = "<group>"; };
+		EE2C1FD916D6E4AA00692D6C /* sequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sequence.h; path = ../Libraries/includes/StochHMM/sequence.h; sourceTree = "<group>"; };
+		EE2C1FDA16D6E4AA00692D6C /* sequences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sequences.h; path = ../Libraries/includes/StochHMM/sequences.h; sourceTree = "<group>"; };
+		EED0B2A816D6F57C00A11324 /* libStochHMM.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libStochHMM.a; path = ../Libraries/libStochHMM.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +139,7 @@
 				EE2C1F3D16D6BFD200692D6C /* libeasel.a in Frameworks */,
 				EE2C1F3E16D6BFD200692D6C /* libhmmer.a in Frameworks */,
 				EE2C1F3F16D6BFD200692D6C /* libhmmerimpl.a in Frameworks */,
-				EE2C1F4016D6BFD200692D6C /* libStochHMM.a in Frameworks */,
+				EED0B2A916D6F57C00A11324 /* libStochHMM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +150,6 @@
 				EE2C1FB616D6CDA200692D6C /* libeasel.a in Frameworks */,
 				EE2C1FB716D6CDA200692D6C /* libhmmer.a in Frameworks */,
 				EE2C1FB816D6CDA200692D6C /* libhmmerimpl.a in Frameworks */,
-				EE2C1FB916D6CDA200692D6C /* libStochHMM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +161,6 @@
 			children = (
 				EE2C1F4116D6BFE700692D6C /* Static Libraries */,
 				EE2C1F1C16D6B9E600692D6C /* Sickle */,
-				EE2C1F2E16D6BF6E00692D6C /* Sickle */,
 				EE2C1F1B16D6B9E600692D6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -188,6 +177,7 @@
 		EE2C1F1C16D6B9E600692D6C /* Sickle */ = {
 			isa = PBXGroup;
 			children = (
+				EED0B2AA16D6F70100A11324 /* bin */,
 				EE2C1F2816D6BC7200692D6C /* src */,
 			);
 			path = Sickle;
@@ -196,19 +186,8 @@
 		EE2C1F2816D6BC7200692D6C /* src */ = {
 			isa = PBXGroup;
 			children = (
-				EE2C1F3716D6BF8400692D6C /* Sickle.h */,
-				EE2C1F3616D6BF8400692D6C /* Sickle.cpp */,
-				EE2C1FA516D6C61C00692D6C /* Nail.cpp */,
-				EE2C1FA616D6C61C00692D6C /* Nail.h */,
 			);
 			name = src;
-			sourceTree = "<group>";
-		};
-		EE2C1F2E16D6BF6E00692D6C /* Sickle */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sickle;
 			sourceTree = "<group>";
 		};
 		EE2C1F4116D6BFE700692D6C /* Static Libraries */ = {
@@ -218,7 +197,7 @@
 				EE2C1F3916D6BFD200692D6C /* libeasel.a */,
 				EE2C1F3A16D6BFD200692D6C /* libhmmer.a */,
 				EE2C1F3B16D6BFD200692D6C /* libhmmerimpl.a */,
-				EE2C1F3C16D6BFD200692D6C /* libStochHMM.a */,
+				EED0B2A816D6F57C00A11324 /* libStochHMM.a */,
 			);
 			name = "Static Libraries";
 			sourceTree = "<group>";
@@ -296,39 +275,31 @@
 		EE2C1F4416D6C01800692D6C /* StochHMM */ = {
 			isa = PBXGroup;
 			children = (
-				EE2C1F8016D6C07600692D6C /* emm.h */,
-				EE2C1F8116D6C07600692D6C /* externalFuncs.h */,
-				EE2C1F8216D6C07600692D6C /* externDefinitions.h */,
-				EE2C1F8316D6C07600692D6C /* hmm.h */,
-				EE2C1F8416D6C07600692D6C /* index.h */,
-				EE2C1F8516D6C07600692D6C /* lexicalTable.h */,
-				EE2C1F8616D6C07600692D6C /* modelTemplate.h */,
-				EE2C1F8716D6C07600692D6C /* MotifScorer.h */,
-				EE2C1F8816D6C07600692D6C /* options.h */,
-				EE2C1F8916D6C07600692D6C /* output.h */,
-				EE2C1F8A16D6C07600692D6C /* PDF.h */,
-				EE2C1F8B16D6C07600692D6C /* pwm.h */,
-				EE2C1F8C16D6C07600692D6C /* seqTracks.h */,
-				EE2C1F8D16D6C07600692D6C /* sequence.h */,
-				EE2C1F8E16D6C07600692D6C /* sequences.h */,
-				EE2C1F8F16D6C07600692D6C /* sequenceStream.h */,
-				EE2C1F9016D6C07600692D6C /* simpleTable.h */,
-				EE2C1F9116D6C07600692D6C /* state.h */,
-				EE2C1F9216D6C07600692D6C /* statistics.h */,
-				EE2C1F9316D6C07600692D6C /* stochErr.h */,
-				EE2C1F9416D6C07600692D6C /* StochHMM_usage.h */,
-				EE2C1F9516D6C07600692D6C /* StochHMMlib.h */,
-				EE2C1F9616D6C07600692D6C /* stochMath.h */,
-				EE2C1F9716D6C07600692D6C /* stochTable.h */,
-				EE2C1F9816D6C07600692D6C /* stochTypes.h */,
-				EE2C1F9916D6C07600692D6C /* table.h */,
-				EE2C1F9A16D6C07600692D6C /* text.h */,
-				EE2C1F9B16D6C07600692D6C /* traceback_path.h */,
-				EE2C1F9C16D6C07600692D6C /* track.h */,
-				EE2C1F9E16D6C07600692D6C /* transitions.h */,
-				EE2C1F9F16D6C07600692D6C /* trellis.h */,
-				EE2C1FA016D6C07600692D6C /* userFunctions.h */,
-				EE2C1FA116D6C07600692D6C /* weight.h */,
+				EE2C1FC216D6E4AA00692D6C /* trellis.h */,
+				EE2C1FC316D6E4AA00692D6C /* stochTable.h */,
+				EE2C1FC416D6E4AA00692D6C /* traceback_path.h */,
+				EE2C1FC516D6E4AA00692D6C /* pwm.h */,
+				EE2C1FC616D6E4AA00692D6C /* StochHMMlib.h */,
+				EE2C1FC716D6E4AA00692D6C /* PDF.h */,
+				EE2C1FC816D6E4AA00692D6C /* index.h */,
+				EE2C1FC916D6E4AA00692D6C /* stochMath.h */,
+				EE2C1FCA16D6E4AA00692D6C /* stochTypes.h */,
+				EE2C1FCB16D6E4AA00692D6C /* text.h */,
+				EE2C1FCC16D6E4AA00692D6C /* userFunctions.h */,
+				EE2C1FCD16D6E4AA00692D6C /* hmm.h */,
+				EE2C1FCE16D6E4AA00692D6C /* state.h */,
+				EE2C1FCF16D6E4AA00692D6C /* lexicalTable.h */,
+				EE2C1FD016D6E4AA00692D6C /* track.h */,
+				EE2C1FD116D6E4AA00692D6C /* emm.h */,
+				EE2C1FD216D6E4AA00692D6C /* externalFuncs.h */,
+				EE2C1FD316D6E4AA00692D6C /* modelTemplate.h */,
+				EE2C1FD416D6E4AA00692D6C /* transitions.h */,
+				EE2C1FD516D6E4AA00692D6C /* weight.h */,
+				EE2C1FD616D6E4AA00692D6C /* options.h */,
+				EE2C1FD716D6E4AA00692D6C /* externDefinitions.h */,
+				EE2C1FD816D6E4AA00692D6C /* seqTracks.h */,
+				EE2C1FD916D6E4AA00692D6C /* sequence.h */,
+				EE2C1FDA16D6E4AA00692D6C /* sequences.h */,
 			);
 			name = StochHMM;
 			sourceTree = "<group>";
@@ -340,6 +311,33 @@
 			);
 			name = impl;
 			path = "../Libraries/includes/hmmer-3.0/impl";
+			sourceTree = "<group>";
+		};
+		EED0B2AA16D6F70100A11324 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				EED0B2AC16D6F71500A11324 /* Nail */,
+				EED0B2AB16D6F70E00A11324 /* Sickle */,
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+		EED0B2AB16D6F70E00A11324 /* Sickle */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C1F3716D6BF8400692D6C /* Sickle.h */,
+				EE2C1F3616D6BF8400692D6C /* Sickle.cpp */,
+			);
+			name = Sickle;
+			sourceTree = "<group>";
+		};
+		EED0B2AC16D6F71500A11324 /* Nail */ = {
+			isa = PBXGroup;
+			children = (
+				EE2C1FA516D6C61C00692D6C /* Nail.cpp */,
+				EE2C1FA616D6C61C00692D6C /* Nail.h */,
+			);
+			name = Nail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,9 +484,12 @@
 		EE2C1F3416D6BF6E00692D6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "../Libraries/includes/StochHMM/**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Libraries\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Korf - StochHMM/StochHMM/xcode/DerivedData/StochHMM/Build/Products/Debug\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -497,9 +498,12 @@
 		EE2C1F3516D6BF6E00692D6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "../Libraries/includes/StochHMM/**";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Libraries\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../Korf - StochHMM/StochHMM/xcode/DerivedData/StochHMM/Build/Products/Debug\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -511,6 +515,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Libraries\"",
+					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -522,6 +527,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Libraries\"",
+					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -546,6 +552,7 @@
 				EE2C1F3516D6BF6E00692D6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE2C1FB216D6CD6C00692D6C /* Build configuration list for PBXNativeTarget "Nail" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +561,7 @@
 				EE2C1FB416D6CD6C00692D6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

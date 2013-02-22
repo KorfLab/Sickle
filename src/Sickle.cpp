@@ -14,10 +14,23 @@
 
 #include <string>
 #include <iostream>
-#include "Sickle.h"
+#include "StochHMMlib.h"
 
 
 int main (int argc, char* const argv[]) {
+	const char * characters[4] = {"A","C","G","T"};
+	
+	StochHMM::track tr;
+	tr.addAlphabetChar(4,characters);
+	
+	StochHMM::sequence seq;
+	std::string sq("ACGTACGTACGTACGTACGT");
+	seq.setSeq(sq, &tr);
+	
+	std::cout << seq.undigitize() << std::endl;
+	seq.shuffle();
+	std::cout << seq.undigitize() << std::endl;
+	
 	
 //    Sickle::Sickle ZincModel(argv[1]); //!Creates the Sickle class using model input filename from commandline
 //    
