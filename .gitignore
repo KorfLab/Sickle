@@ -13,6 +13,7 @@ bin/
 # Compiled Static libraries
 *.lai
 *.la
+*.a
 
 #Mac Files
 .*
